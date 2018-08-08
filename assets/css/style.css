@@ -70,3 +70,14 @@ p{
     font-size: 14px;
     line-height: 1.5em;
 }
+input[type="text"], textarea{
+
+    width: 800px;
+}
+input[type="submit"]{
+
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
