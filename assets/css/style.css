@@ -25,7 +25,7 @@ header{
 }
 a{
     color: #777777;
-    padding: 10px;
+    padding: 5px;
 }
 .content{
     /* background-color: #dddddd; */
@@ -61,14 +61,17 @@ footer{
 }
 img{
     padding: 0 15px;
-    float: left 
+    float: left;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
 }
 p{
     margin-top: 20px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 input[type="text"], textarea{
 
@@ -91,4 +94,21 @@ input[type="submit"]{
 textarea{
     width: 813px;
     height: 241px;
+}
+h4{
+    z-index: 2;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    padding: 10px;
+    /* border-bottom: 0; */
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 10px 15px;
+    width: 50%;
+    /* border-right: 30px solid #4aaaa5;
+    border-left: 30px solid #4aaaa5; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
 }
